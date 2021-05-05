@@ -6,6 +6,6 @@
 
 function doMathClicked () {
   // Math function
-  document.getElementById('area-math').innerHTML = 'Area of 5cm & 3cm =  ' + (5*3)
-  document.getElementById('perimiter-math').innerHTML = 'Perimiter of 5 & 3 =  ' + (2*(5+3))
+  document.getElementById('area-math').innerHTML = 'Area of 5cm & 3cm =  ' + (5*3) + 'cm²'
+  document.getElementById('perimiter-math').innerHTML = 'Perimiter of 5 & 3 =  ' + 2*(5+3) + 'cm'
 }

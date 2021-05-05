@@ -11,6 +11,7 @@ import (
 
 func main() {
     // Math Function
-    fmt.Println("Area of 5cm & 3cm  = ", (5*3))
-    fmt.Println("Perimiter of 5 & 3 =  ", 2*(5+3))
+    fmt.Println("Rectangle: 5cm & 3cm")
+    fmt.Println("Area of 5cm & 3cm  = ", (5*3), "cm²")
+    fmt.Println("Perimiter of 5 & 3 =  ", 2*(5+3), "cm")
 }
