@@ -7,14 +7,10 @@ package main
 
 import (
     "fmt"
-    "math"
 )
 
 func main() {
     // Math Function
-    fmt.Println("9 + 2 = ", (9 + 2))
-    fmt.Println("7 - 3 = ", (7 - 3))
-    fmt.Println("4 * 2 = ", (4 * 2))
-    fmt.Println("4 + 4 / 2 = ", (4 + (4 / 2)))
-    fmt.Println("5 + 2³ = ", (5 + math.Pow(2, 3)))
+    fmt.Println("Area of 5cm & 3cm  = ", (5*3))
+    fmt.Println("Perimiter of 5 & 3 =  ", 2*(5+3))
 }
